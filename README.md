@@ -6,7 +6,7 @@ This repository contains the official codes for the paper "[**Plug-and-Play Regu
 ## FAQs
 
 ## CITATION
-Please cite the following paper when using this code or data:
+Please cite the following paper when using this code:
 
     @misc{oral2023plugandplay,
           title={Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging}, 
