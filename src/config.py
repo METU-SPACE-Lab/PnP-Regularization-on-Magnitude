@@ -181,8 +181,6 @@ class RSC2params():
         self.freqs = torch.linspace(start=FREQ_MIN,end=FREQ_MAX,steps=FREQ_STEPS)
         self.rx_positions=tensor.linspace(torch.tensor([-1,-1,0])*ARRAY_WIDTH/2,torch.tensor([+1,+1,0])*ARRAY_WIDTH/2,N_rx)
         self.tx_positions=tensor.linspace(torch.tensor([-1,+1,0])*ARRAY_WIDTH/2,torch.tensor([+1,-1,0])*ARRAY_WIDTH/2,N_tx)
-        # self.tx_positions=tensor.linspace(torch.tensor([-1,-1,0])*ARRAY_WIDTH/2,torch.tensor([+1,+1,0])*ARRAY_WIDTH/2,N_tx)
-        # self.rx_positions=tensor.linspace(torch.tensor([-1,+1,0])*ARRAY_WIDTH/2,torch.tensor([+1,-1,0])*ARRAY_WIDTH/2,N_rx)
 
         self.x_coords=torch.linspace(X_MIN,X_MAX,N_X)
         self.y_coords=torch.linspace(Y_MIN,Y_MAX,N_Y)
