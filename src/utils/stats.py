@@ -81,12 +81,6 @@ def psnr3D(target, estimation):
     vox_max = maxmag3D(target)
     return lin2dB((vox_max**2)/mse(target,estimation,dims_exclude=0))
 
-_ssim3D=_SSIM(gaussian_kernel=[11,11,11],sigma=[1.5,1.5,1.5],reduction=None)
-ssim3D = lambda target,estimation: _ssim3D(target=target,preds=estimation)
-
-_ssim2D= _SSIM(gaussian_kernel=[11,11],sigma=[1.5,1.5],reduction=None)
-ssim2D = lambda target,estimation: _ssim2D(target=torch.transpose(target[:,0,...], -3, -1),preds=torch.transpose(estimation[:,0,...], -3, -1))
-
 def set_seed(SEED):
     random.seed(SEED)
     np.random.seed(SEED)
