@@ -1,12 +1,43 @@
 # [Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging](https://arxiv.org/abs/2312.16024)
 [Okyanus Oral](https://ookyanus.github.io) and [Figen S. Oktem](https://blog.metu.edu.tr/figeno/).
 
-This repository contains the official codes for the paper "[**Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging**](https://arxiv.org/abs/2312.16024)". **(Accepted to appear in TCI)**
+This repository contains the official codes for the paper "[**Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging**](https://arxiv.org/abs/2312.16024)". **(*to appear in IEEE Transactions on Computational Imaging*)**
 
-## FAQs
+
+## FAQs: Simulated and Experimental Data
+You can download the synthetically generated dataset from [here](https://drive.google.com/drive/folders/1sxosLDMB55ZEjkti-o2d7m3V59jCAe5o?usp=sharing). If you use this dataset you should cite [1].
+
+For the experimental data, you should refer to (and cite) [2,3].
+
+Check `format-exp-data.ipynb` for the instructions on how to format the experimental data provided at [3].
+
+**[1]** I. Manisali, O. Oral, and F. S. Oktem, ”Efficient physics-based learned reconstruction methods for real-time 3D near-field MIMO radar imaging”, Digital Signal Processing, vol. 144, p. 104274, 2024, doi: 10.1016/j.dsp.2023.104274.
+
+**[2]**  J. Wang, P. Aubry and A. Yarovoy, "3-D Short-Range Imaging With Irregular MIMO Arrays Using NUFFT-Based Range Migration Algorithm," in  _IEEE Transactions on Geoscience and Remote Sensing_, vol. 58, no. 7, pp. 4730-4742, July 2020, doi: 10.1109/TGRS.2020.2966368.
+
+**[3]**  Jianping Wang, January 10, 2020, "EM data acquired with irregular planar MIMO arrays", IEEE Dataport, doi:  [https://dx.doi.org/10.21227/src2-0y50](https://dx.doi.org/10.21227/src2-0y50).
+
+## FAQs: Codes
+### Main Files:
+- **For simulations**, follow the instructions provided in `main-simulated.ipynb`.
+- **For the experimental reconstructions**, follow the instructions provided in `main-experimental.ipynb` .
+
+### Are you looking for the, 
+**- Codes for the reconstruction algorithms:** You can find them in `../src/optimization.py` (apart from the comments present in `optimization.py` further explanations are provided in `main-simulated.ipynb` and `main-experimental.ipynb`).
+ 
+**- Deep denoiser:** Check  `../src/nn_models/unet3D.py` for the network class. The parameters of the utilized model architecture can be found in `../trained_model/info.json`. For the parameter dictionary of the trained model check `../trained_model/base_model.pt`.
+
+**- Observation model:** Check `../src/forward_models/bornapprox.py` for the forward model class. The base model is  `MVprod()` but if you have memory problems you may prefer to use `MVProd_iterK()` which computes the Born approximated measurements iteratively. 
+
+### Some remarks on,
+**- Parallel processing:** All solvers can work on both CPUs and GPUs. You can process the measurements in parallel and also asynchrounously (see `main-simulated.ipynb` for further info).  If you plan on parallel processing batch of measurements, then I suggest you to enable 'asynchronous' argument of the solvers as this allows to asynchronously stop the image updates and speeds up the execution. On the other hand, if set to False, the solver will continue the optimization even after some images in the batch converge, which can potentially create numerical instability.
+
+**- Scale invariance:** For the deep neural network you should use the `scale_invariance_wrapper()` class if the measurements have a different scale then the training data.
+
+**- Using your DNN:** The NNCG-CSALSA solver allows you to use both blind and non-blind denoisers. Please check the notebooks for further information.
 
 ## CITATION
-Please cite the following paper when using this code:
+Please cite the following when using this code:
 
     @misc{oral2023plugandplay,
           title={Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging}, 
@@ -16,3 +47,6 @@ Please cite the following paper when using this code:
           archivePrefix={arXiv},
           primaryClass={eess.IV}
     }
+
+## CONTACT:
+If you have any questions or need help please feel free to contact me ([Okyanus Oral](https://ookyanus.github.io), **email:**  ookyanus@metu.edu.tr).
