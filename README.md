@@ -53,8 +53,8 @@ Please cite the following when using this code:
    
 ## Other Results
 
-![img](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/SimulatedTop.png "Experimental Reconstructions")
-![img](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/SimulatedResults.png "Experimental Reconstructions")
+![img](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/SimulatedTop.png "Simulated Reconstructions")
+![img](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/SimulatedResults.png "Simulated Reconstructions")
 
 ## CONTACT:
 If you have any questions or need help, please feel free to contact me ([Okyanus Oral](https://ookyanus.github.io), **email:**  ookyanus@metu.edu.tr).
