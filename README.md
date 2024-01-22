@@ -3,9 +3,8 @@
 
 This repository contains the official codes for the paper "[**Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging**](https://arxiv.org/abs/2312.16024)". **(*to appear in IEEE Transactions on Computational Imaging*)**
 
-![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/ExperimentalReconstructions.png "Experimental Reconstructions")
-![info](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/Filler.png "filler info")
-![Simulated Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/SimulatedReconstructions.png "Experimental Reconstructions")
+![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/TopExperimental.png "Experimental Reconstructions")
+![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/ExperimentalResults.png "Experimental Reconstructions")
 
 
 
@@ -40,7 +39,6 @@ Check [format-exp-data.ipynb](https://github.com/METU-SPACE-Lab/PnP-Regularizati
 **- Scale invariance:** For the deep neural network, you should use the `scale_invariance_wrapper()` class if the measurements have a different scale than the training data.
 
 **- Using your DNN:** The NNCG-CSALSA solver allows you to use both blind and non-blind denoisers. Please check the notebooks for further information.
-
 ## CITATION
 Please cite the following when using this code:
 
@@ -52,6 +50,11 @@ Please cite the following when using this code:
           archivePrefix={arXiv},
           primaryClass={eess.IV}
     }
+   
+## Other Results
+
+![img](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/SimulatedTop.png "Experimental Reconstructions")
+![img](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/SimulatedResults.png "Experimental Reconstructions")
 
 ## CONTACT:
 If you have any questions or need help, please feel free to contact me ([Okyanus Oral](https://ookyanus.github.io), **email:**  ookyanus@metu.edu.tr).
