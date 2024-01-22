@@ -24,8 +24,8 @@ Check [format-exp-data.ipynb](https://github.com/METU-SPACE-Lab/PnP-Regularizati
 
 ## FAQs: Codes
 ### Main Files:
-- **For simulations**, follow the instructions provided in `main-simulated.ipynb`.
-- **For the experimental reconstructions**, follow the instructions provided in `main-experimental.ipynb` .
+- **For simulations**, follow the instructions provided in [main-simulated.ipynb](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/main-simulated.ipynb).
+- **For the experimental reconstructions**, follow the instructions provided in [main-experimental.ipynb](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/main-experimental.ipynb).
 
 ### Are you looking for the, 
 **- Codes for the reconstruction algorithms:** You can find them in [../src/optimization.py](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/src/optimization.py) (apart from the comments present in [optimization.py](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/src/optimization.py), further explanations are provided in [main-simulated.ipynb](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/main-simulated.ipynb) and [main-experimental.ipynb](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/main-experimental.ipynb)).
