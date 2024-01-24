@@ -4,7 +4,8 @@
 This repository contains the official codes for the paper "[**Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging**](https://arxiv.org/abs/2312.16024)". **(*to appear in IEEE Transactions on Computational Imaging*)**
 
 ![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/ExperimentalResults-v2.png "Experimental Reconstructions")
-
+**Check the 3D Rotating views on YouTube!** 
+[[YouTube: Experimental Results](https://youtu.be/Q4pkmQCpx-U) , [YouTube: Simulation Results](https://youtu.be/Q4pkmQCpx-U)]
 
 
 ## FAQs: Simulated and Experimental Data
