@@ -7,8 +7,8 @@ This repository contains the official codes for the paper "[**Plug-and-Play Regu
 
 ![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/ExperimentalResults-v2.png "Experimental Reconstructions")
 <table>
-<td> <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qTrIXIPdVc">[Youtube: 3D Rotating views of Experimental Reconstructions]</a><br><img src="https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/Experimental Reconstructions.gif" width=400px />  </td>
-<td> <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qTrIXIPdVc">[Youtube: 3D Rotating views of Experimental Reconstructions]</a><br><img src="https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/Experimental Reconstructions.gif" width=400px />  </td>
+<td> <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qTrIXIPdVc">[Youtube: 3D Rotating views (Experimental Reconstructions)]</a><br><img src="https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/Experimental Reconstructions.gif" width=390px />  </td>
+<td> <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qTrIXIPdVc">[Youtube: 3D Rotating views (Experimental Reconstructions)]</a><br><img src="https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/Experimental Reconstructions.gif" width=390px />  </td>
 </table>
 
 ## FAQs: Simulated and Experimental Data
