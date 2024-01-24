@@ -1,12 +1,15 @@
+
 # [Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging](https://arxiv.org/abs/2312.16024)
 [Okyanus Oral](https://ookyanus.github.io) and [Figen S. Oktem](https://blog.metu.edu.tr/figeno/).
 
 This repository contains the official codes for the paper "[**Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging**](https://arxiv.org/abs/2312.16024)". **(*to appear in IEEE Transactions on Computational Imaging*)**
 
-![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/ExperimentalResults-v2.png "Experimental Reconstructions")
-**Check the 3D Rotating views on YouTube!** 
-[[YouTube: Experimental Results](https://youtu.be/Q4pkmQCpx-U) , [YouTube: Simulation Results](https://youtu.be/Q4pkmQCpx-U)]
 
+![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/ExperimentalResults-v2.png "Experimental Reconstructions")
+<table>
+<td> <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qTrIXIPdVc">[Youtube: 3D Rotating views of Experimental Reconstructions]</a><br><img src="https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/Experimental Reconstructions.gif" width=500px />  </td>
+<td> <a href="http://www.youtube.com/watch?feature=player_embedded&v=9qTrIXIPdVc">[Youtube: 3D Rotating views of Experimental Reconstructions]</a><br><img src="https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/Experimental Reconstructions.gif" width=500px />  </td>
+</table>
 
 ## FAQs: Simulated and Experimental Data
 You can download the synthetically generated dataset from [here](https://drive.google.com/drive/folders/1sxosLDMB55ZEjkti-o2d7m3V59jCAe5o?usp=sharing). If you use this dataset, you should cite [1].
