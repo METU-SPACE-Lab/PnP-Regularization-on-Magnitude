@@ -45,14 +45,14 @@ Check [format-exp-data.ipynb](https://github.com/METU-SPACE-Lab/PnP-Regularizati
 ## CITATION
 Please cite the following when using this code:
 
-    @misc{oral2023plugandplay,
-          title={Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging}, 
-          author={Okyanus Oral and Figen S. Oktem},
-          year={2023},
-          eprint={2312.16024},
-          archivePrefix={arXiv},
-          primaryClass={eess.IV}
-    }
+    @misc{oral2024plugandplay,
+      title={Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging}, 
+      author={Okyanus Oral and Figen S. Oktem},
+      year={2024},
+      eprint={2312.16024},
+      archivePrefix={arXiv},
+      primaryClass={eess.IV}
+}
    
 ## Other Results
 
