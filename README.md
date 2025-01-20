@@ -2,7 +2,7 @@
 # [Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging](https://arxiv.org/abs/2312.16024)
 [Okyanus Oral](https://ookyanus.github.io) and [Figen S. Oktem](https://blog.metu.edu.tr/figeno/).
 
-This repository contains the official codes for the paper "[**Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging**](https://arxiv.org/abs/2312.16024)". **(*to appear in IEEE Transactions on Computational Imaging*)**
+This repository contains the official codes for the paper "[**Plug-and-Play Regularization on Magnitude with Deep Priors for 3D Near-Field MIMO Imaging**](https://ieeexplore.ieee.org/document/10517644/), IEEE Transactions on Computational Imaging, vol. 10, pp. 762-773, 2024, doi: 10.1109/TCI.2024.3396388. ([arXiv](https://arxiv.org/abs/2312.16024))
 
 
 ![Experimental Reconstructions](https://github.com/METU-SPACE-Lab/PnP-Regularization-on-Magnitude/blob/main/images/ExperimentalResults-v2.png "Experimental Reconstructions")
